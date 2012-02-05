@@ -1,4 +1,5 @@
 # ignore those files
 *~
 bin/*
+gen/*
 ant.properties
