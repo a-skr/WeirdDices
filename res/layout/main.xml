@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical" 
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent">
+
+  <TextView
+     android:text="Roll a Dice!"
+     android:id="@+id/display"
+     android:textSize="@dimen/display_text_size"
+     android:textColor="@color/display_color"
+     android:layout_height="@dimen/display_height"
+     android:layout_width="fill_parent"
+     android:gravity="center"/>
+ 
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:stretchColumns="0,1,2">
+
+    <TableRow>
+      <Button android:text="@string/d2" 
+	      android:id="@+id/button_d2"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d3" 
+	      android:id="@+id/button_d3"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d4" 
+	      android:id="@+id/button_d4"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+      <Button android:text="@string/d5" 
+	      android:id="@+id/button_d5"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d6" 
+	      android:id="@+id/button_d6"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d7" 
+	      android:id="@+id/button_d7"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+      <Button android:text="@string/d8" 
+	      android:id="@+id/button_d8"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d10" 
+	      android:id="@+id/button_d10"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d12" 
+	      android:id="@+id/button_d12"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+      <Button android:text="@string/d14" 
+	      android:id="@+id/button_d14"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d16" 
+	      android:id="@+id/button_d16"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d20" 
+	      android:id="@+id/button_d20"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+      <Button android:text="@string/d24" 
+	      android:id="@+id/button_d24"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d30" 
+	      android:id="@+id/button_d30"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+      <Button android:text="@string/d100" 
+	      android:id="@+id/button_d100"
+	      android:textSize="@dimen/button_text_size"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"/>
+    </TableRow>
+
+  </TableLayout>
+
+</LinearLayout>

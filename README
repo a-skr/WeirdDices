@@ -1,0 +1,19 @@
+Welcome
+-------
+
+WeirdDices is a small android app that emulate RPG dices rolling. Dedicated to 
+those that need a handy Zocchi Set but are unable to load themself with strange
+polyhedrons.
+
+Build
+-----
+
+You will need an android SDK. This app was developped with Android 2.1 in mind.
+You may have to create an empty ant.properties file.
+
+Copying
+-------
+
+Free use of this software is granted under the terms of the GNU General Public 
+License (GPL). For details see the files `COPYING` included with the WeirdDices
+distribution.
